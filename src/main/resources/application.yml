@@ -1,0 +1,9 @@
+spring.security.oauth2.resourceserver.jwt.issuer-uri: https://myorg.oktapreview.com/oauth2/default
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+okta:
+  oauth2:
+    issuer: https://myorg.oktapreview.com/oauth2/default
+    client-id: myclientid
